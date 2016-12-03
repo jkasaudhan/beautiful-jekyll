@@ -39,4 +39,11 @@ function init() {
 alert("The value of x in script two is "+ x);
 window.onload = init;
 ```
+If you execute these scripts in a browser, you will find that it alerts 4 and 40 and executes init script two but not script one. It means init function of script_two.js overwrites the first init and init function of script_one.js is never executed.
+
+Background of the text becomes red if you click on the text but it never gets blue. [Demo](https://plnkr.co/edit/EWe7gjcPZkSJ4MkHabq2)
+
+Solution to avoid this problem is to avoid using onEvent handlers.You can use proper DOM level-2 event handlers (it won't work in IE) as described below. Similarly, wrap your code with unique function names to avoid overriding from each other.
+
+
 
