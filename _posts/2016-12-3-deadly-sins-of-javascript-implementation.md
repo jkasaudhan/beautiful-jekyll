@@ -45,5 +45,87 @@ Background of the text becomes red if you click on the text but it never gets bl
 
 Solution to avoid this problem is to avoid using onEvent handlers.You can use proper DOM level-2 event handlers (it won't work in IE) as described below. Similarly, wrap your code with unique function names to avoid overriding from each other.
 
+```javascript
+
+var scriptOne = function(){
+
+  var x = 5;
+
+  function init(){
+
+    alert('script one init');
+
+    document.getElementsByTagName('h1')[0].addEventListener(
+
+      'click',
+
+      function(e){
+
+        var t = e.target;
+
+        t.style.background = 'blue';
+
+      },
+
+      false
+
+    );
+
+  }
+
+  alert('x inside is '+x);
+
+  return {init:init};
+
+}();
+
+window.addEventListener('load',scriptOne.init,false);
+
+alert('x outside is '+x);
+
+
+
+var scriptTwo = function(){
+
+  var x = 10;
+
+  function init(){
+
+    alert('script two init');
+
+    document.getElementsByTagName('h1')[0].addEventListener(
+
+      'click',
+
+      function(e){
+
+        var t = e.target;
+
+        t.style.color = 'white';
+
+      },
+
+      false
+
+    );
+
+  }
+
+  alert('x inside is '+x);
+
+  return {init:init};
+
+}();
+
+window.addEventListener('load',scriptTwo.init,false);
+
+alert('x outside is '+x);
+```
+
+In this way everything executes as expected, x inside is 5 and than 10 and text changes to blue when you click on the text.
+
+By moving x inside a function and using keyword _var_ infront of them, we have made them visible within those functions and restricted outside world to use that variable directly. This is called _Closure_ which is the powerful feature of javascript.
+
+
 
 
