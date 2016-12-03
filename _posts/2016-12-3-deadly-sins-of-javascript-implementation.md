@@ -47,78 +47,42 @@ Solution to avoid this problem is to avoid using onEvent handlers.You can use pr
 
 ```javascript
 
-var scriptOne = function(){
-
+var scriptOne = function() {
   var x = 5;
-
-  function init(){
-
+  function init() {
     alert('script one init');
-
     document.getElementsByTagName('h1')[0].addEventListener(
-
       'click',
-
-      function(e){
-
+      function(e) {
         var t = e.target;
-
         t.style.background = 'blue';
-
       },
-
       false
-
     );
-
   }
-
   alert('x inside is '+x);
-
   return {init:init};
-
 }();
-
 window.addEventListener('load',scriptOne.init,false);
-
 alert('x outside is '+x);
 
-
-
-var scriptTwo = function(){
-
+var scriptTwo = function() {
   var x = 10;
-
-  function init(){
-
+  function init() {
     alert('script two init');
-
     document.getElementsByTagName('h1')[0].addEventListener(
-
       'click',
-
       function(e){
-
         var t = e.target;
-
         t.style.color = 'white';
-
       },
-
       false
-
     );
-
   }
-
   alert('x inside is '+x);
-
   return {init:init};
-
 }();
-
 window.addEventListener('load',scriptTwo.init,false);
-
 alert('x outside is '+x);
 ```
 
@@ -126,6 +90,19 @@ In this way everything executes as expected, x inside is 5 and than 10 and text 
 
 By moving x inside a function and using keyword _var_ infront of them, we have made them visible within those functions and restricted outside world to use that variable directly. This is called _Closure_ which is the powerful feature of javascript.
 
+[Module Pattern](http://www.christianheilmann.com/2007/07/24/show-love-to-the-module-pattern/) is considered as the best practices while creating closure function that retruns function which should be acceble to the outside world.
 
+```javascript
+var scriptOne = function() {
+  var x = 4;
+  var f = 3;
+  function load(){}
+  function init(){}
+  return {
+    init:init
+  } 
+}();
+```
+In this way, we can access load and init function by scriptOne.load() or scriptOne.init(). This technique will safeguard all your variables and functions. 
 
 
