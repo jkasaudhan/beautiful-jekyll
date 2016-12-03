@@ -88,7 +88,8 @@ alert('x outside is '+x);
 In this way everything executes as expected, x inside is 5 and than 10 and text changes to blue when you click on the text.
 By moving x inside a function and using keyword _var_ infront of them, we have made them visible within those functions and restricted outside world to use that variable directly. This is called _Closure_ which is the powerful feature of javascript.
 
-[Module Pattern]() is considered as the best practices while creating closure function that retruns function which should be acceble to the outside world.
+[Module Pattern](http://www.christianheilmann.com/2007/07/24/show-love-to-the-module-pattern/) is considered as the best practices while creating closure function that retruns function which should be acceble to the outside world.
+
 ```
 var scriptOne = function() {
   var x = 4;
