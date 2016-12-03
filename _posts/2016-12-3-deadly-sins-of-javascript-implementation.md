@@ -27,6 +27,7 @@ alert("The value of x in script one is "+ x);
 window.onload = init;
 ```
 Immediately after script_one.js, include script_two.js with following code block  
+
 ```javascript
 x = 40;
 function init() {
