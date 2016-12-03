@@ -15,7 +15,7 @@ This might cause unexpected results. Therefore, we should be careful while using
 
 Let's say you have script_one.js file with following code
 
-```
+```javascript
 x = 4;
 function init() {
   alert("init script one");
@@ -28,7 +28,7 @@ window.onload = init;
 
 ```
 Immediately after script_one.js, include script_two.js with following code block
-```
+```javascript
 x = 40;
 function init() {
   alert("init script two");
@@ -45,7 +45,7 @@ Background of the text becomes red if you click on the text but it never gets bl
 
 Solution to avoid this problem is to avoid using onEvent handlers.You can use proper DOM level-2 event handlers (it won't work in IE) as described below. Similarly, wrap your code with unique function names to avoid overriding from each other.
 
-```
+```javascript
 var scriptOne = function(){
   var x = 5;
   function init(){
@@ -88,7 +88,7 @@ In this way everything executes as expected, x inside is 5 and than 10 and text 
 By moving x inside a function and using keyword _var_ infront of them, we have made them visible within those functions and restricted outside world to use that variable directly. This is called _Closure_ which is the powerful feature of javascript.
 
 [Module Pattern](http://www.christianheilmann.com/2007/07/24/show-love-to-the-module-pattern/) is considered as the best practices while creating closure function that retruns function which should be acceble to the outside world.
-```
+```javascript
 var scriptOne = function() {
   var x = 4;
   var f = 3;
