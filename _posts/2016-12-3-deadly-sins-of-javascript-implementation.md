@@ -5,7 +5,7 @@ subtitle: Javascript bad practices
 bigimg: /img/js-sins.jpg
 ---
 
-### Using global variabes, functions and DOM level-1 event handlers unappropriately
+### 1. Using global variabes, functions and DOM level-1 event handlers unappropriately
 Global variables and function defined in one script can be overwritten by second script if it has same names.
 This might cause unexpected results. Therefore, we should be careful while using global variables or functions or event handlers.  
 * Things to remember 
@@ -104,5 +104,18 @@ var scriptOne = function() {
 }();
 ```
 In this way, we can access load and init function by scriptOne.load() or scriptOne.init(). This technique will safeguard all your variables and functions. 
+
+### 2. Using wrong technology for the job
+Most of the time we are habituated to hack our own code and get the things done. But this might lead to unmaintanable code which is hard for other future developers to work on. Therefore, its necessary to follow up some standards.
+
+* Regardless of the environment it will be displayed in, only essential content and mark-up should be in HTML.
+* Any sort of _Look And Feel_ elements should be controlled by CSS. Try to avoid changing color stuff using javascript.
+* Any sort of interactions with the user beyond hover effects  should be done by javascript.
+
+
+
+
+
+
 
 
