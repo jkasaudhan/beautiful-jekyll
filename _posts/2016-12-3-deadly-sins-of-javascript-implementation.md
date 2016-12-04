@@ -160,7 +160,7 @@ $(document).ready(function(){
   })
 });
 ```
-Few things is wrong with this apporach.
+Few things are wrong with this apporach.
 
 * For begineer we have made it hard to maintain the code by controlling look and feel through javascript but not CSS.
 * Performance issue: eventhough jQuery is fast enough, there is a lot of code behind $('.section').hide().
@@ -178,6 +178,21 @@ $(document).ready(function(){
   })
 });
 ```
+In this case we can open all the sections when heading for each section is clicked. What if we want to open only current section which is clicked. Normally, we would prefer following approach.
+```javascript
+$(document).ready(function(){
+  $('.section').hide();
+  $('h2').click(function(e){
+    $('.section').hide();
+    $(this).next().toggle().css({
+      'background':'#ffc',
+      'border':'1px solid #999',
+      'padding':'5px'
+    });
+  })
+});
+```
+This appraoch works fine but we are looping through the document lots of time whenever heading is clicked which is slow. Whenever $('.section').hide() is called after each click, jQuery goes through the document and applies the actions on the particular element which will create performance issue if it is called multiple times.
 
 
 
