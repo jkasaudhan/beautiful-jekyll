@@ -191,6 +191,7 @@ $(document).ready(function(){
     });
   })
 });
+
 ```
 This appraoch works fine but we are looping through the document lots of time whenever heading is clicked which is slow. Whenever $('.section').hide() is called after each click, jQuery goes through the document and applies the actions on the particular element which will create performance issue if it is called multiple times.
 It can be optimized by using current variable and avoid looping though the DOM.
