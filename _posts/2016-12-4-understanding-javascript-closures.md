@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What are Closures in JavaScript?
+title: Understanding Closures in JavaScript
 subtitle: Most powerful feature of JavaScript: Closures
 bigimg: /img/js-sins.jpg
 ---
