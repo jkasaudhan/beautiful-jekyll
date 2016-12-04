@@ -5,5 +5,7 @@ subtitle: Most powerful feature of JavaScript - Closure
 bigimg: /img/path.jpg
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?  
+### 1. What are Closures?  
+Closures are the functions that refers to independent variables i.e variables that are used locally but defined in an enclosing scope. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function’s variables, and it has access to the global variables.
+
 
