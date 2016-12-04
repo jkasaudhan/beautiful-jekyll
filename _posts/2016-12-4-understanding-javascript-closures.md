@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Closures in JavaScript
-subtitle: Most powerful feature of JavaScript Closure
+subtitle: Most powerful feature of JavaScript: Closure
 bigimg: /img/path.jpg
 ---
 
