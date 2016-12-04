@@ -179,6 +179,7 @@ $(document).ready(function(){
 });
 ```
 In this case we can open all the sections when heading for each section is clicked. What if we want to open only current section which is clicked. Normally, we would prefer following approach.
+
 ```javascript
 $(document).ready(function(){
   $('.section').hide();
