@@ -241,7 +241,7 @@ $(document).ready(function(){
   }
 </style>
 ```
-
+By adding the class js to the body of the document and toggling the class current for the current section, we maintained control of the look and feel in CSS. With this apporach the handle will be reusable by designer and maintainer. Anything without the .js selector would be the non-scripting-enabled version of a part of the document, and anything with the .js selector is applied only when JavaScript is available.
 
 
 
