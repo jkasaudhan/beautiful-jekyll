@@ -193,6 +193,54 @@ $(document).ready(function(){
 });
 ```
 This appraoch works fine but we are looping through the document lots of time whenever heading is clicked which is slow. Whenever $('.section').hide() is called after each click, jQuery goes through the document and applies the actions on the particular element which will create performance issue if it is called multiple times.
+It can be optimized by using current variable and avoid looping though the DOM.
+
+```javascript
+$(document).ready(function(){
+  var current = false;
+  $('.section').hide();
+  $('h2').click(function(e){
+    if(current){
+      current.hide();
+    }
+    current = $(this).next();
+    current.toggle().css({
+      'background':'#ffc',
+      'border':'1px solid #999',
+      'padding':'5px'
+    });
+  })
+});
+```
+All the methods explained above uses javascript to control styling which is not the best approach. We can use CSS along with JS to achieve this functionality.
+
+```javascript
+$(document).ready(function(){
+  $('body').addClass('js');
+  var current = null;
+  $('h2').click(function(e){
+    if(current){
+      current.removeClass('current');
+    }
+    current = $(this).next().addClass('current');
+  })
+});
+
+<style type="text/css" media="screen">
+  .section{
+    border:1px solid #999;
+    background:#ccc;
+  }
+  .js .section{
+    display:none;
+  }
+  .js .current{
+    display:block;
+    border:1px solid #999;
+    background:#ffc;
+  }
+</style>
+```
 
 
 
