@@ -135,7 +135,7 @@ Let's take an example of how things can be done in a hacky and standard way. Let
   <p>Section 4 content</p>
 </div>
 ```
-Now we want to open each section when its heading is clicked and highlight the content section. You can play around in [plunker](https://plnkr.co/edit/vGt2r9MNRGwii5Lg4VAv)
+Now we want to open each section when its heading is clicked and highlight the content section. You can play around in [plunker](https://plnkr.co/edit/vGt2r9MNRGwii5Lg4VAv).
 Normal jQuery solution to toggle the clicked section would be
 
 ```javascript
@@ -146,6 +146,41 @@ $(document).ready(function() {
   });
 });
 ```
+
+To highlight the content of the current section we normally prefer this way i.e controlling styling through javascript.
+
+```javascript
+$(document).ready(function(){
+  $('.section').hide();
+  $('h2').click(function(e){
+    $(this).next().toggle();
+    $(this).next().css('background','#ccc');
+    $(this).next().css('border','1px solid #999');
+    $(this).next().css('padding','5px');
+  })
+});
+```
+Few things is wrong with this apporach.
+
+* For begineer we have made it hard to maintain the code by controlling look and feel through javascript but not CSS.
+* Performance issue: eventhough jQuery is fast enough, there is a lot of code behind $('.section').hide().
+* We have asked jQuery to find the next siblings four times and set the CSS. We can either set the value of $(this).next() in a variable and use it but we can avoid it by using map as below
+
+```javascript
+$(document).ready(function(){
+  $('.section').hide();
+  $('h2').click(function(e){
+    $(this).next().toggle().css({
+      'background':'#ffc',
+      'border':'1px solid #999',
+      'padding':'5px'
+    });
+  })
+});
+```
+
+
+
 
 
 
