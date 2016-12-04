@@ -112,8 +112,40 @@ Most of the time we are habituated to hack our own code and get the things done.
 * Any sort of _Look And Feel_ elements should be controlled by CSS. Try to avoid changing color stuff using javascript.
 * Any sort of interactions with the user beyond hover effects  should be done by javascript.
 
+Let's take an example of how things can be done in a hacky and standard way. Let's say we have this HTML elements
 
+```javascript
+<h2>Section 1</h2>
+<div class="section">
+  <p>Section 1 content</p>
+</div>
 
+<h2>Section 2</h2>
+<div class="section">
+  <p>Section 2 content</p>
+</div>
+
+<h2>Section 3</h2>
+<div class="section">
+  <p>Section 3 content</p>
+</div>
+
+<h2>Section 4</h2>
+<div class="section">
+  <p>Section 4 content</p>
+</div>
+```
+Now we want to open each section when its heading is clicked and highlight the content section. You can play around in [plunker](https://plnkr.co/edit/vGt2r9MNRGwii5Lg4VAv)
+Normal jQuery solution to toggle the clicked section would be
+
+```javascript
+$(document).ready(function() {
+  $('.section').hide();
+  $('h2').click(function(e) {
+    $(this).next().toggle();
+  });
+});
+```
 
 
 
