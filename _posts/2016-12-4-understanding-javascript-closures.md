@@ -21,5 +21,4 @@ function makeFunc() {
 var myFunc = makeFunc();
 myFunc();
 ```
-This piece of code will alert the name "Jitendra" as expected. Interesting thing to notice in this code is makeFunc() returns a function displayeName() before it is executed. We might think once a function makeFunc() is executed, its local variable _name_ cannot be accessed but it is not the case in case of Closure. Here a variable _myFunc_ has become a closure. A closure is a special kind of object that combines two things: a function, and the environment in which that function was created. 
-
+This piece of code will alert the name "Jitendra" as expected. Interesting thing to notice in this code is makeFunc() returns a function displayeName() before it is executed. We might think once a function makeFunc() is executed, its local variable _name_ cannot be accessed but it is not the case in case of Closure. A variable _myFunc_ has become a closure. A closure is a special kind of object that combines two things: a function, and the environment in which that function was created. The environment consist of any local variables which were in-scope when the closure was created. In this case _myFunc_ is a closure which consist of function _displayName_ and the value of the local variable _name_.
