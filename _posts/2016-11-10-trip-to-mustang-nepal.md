@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Awesome trip to Mustang, Nepal
-subtitle: One of the _must visit_ places in Nepal
+subtitle: One of the "must visit" places in Nepal
 bigimg: /img/path.jpg
 ---
 
