@@ -245,8 +245,23 @@ $(document).ready(function(){
 ```
 By adding the class js to the body of the document and toggling the class current for the current section, we maintained control of the look and feel in CSS. With this apporach the handle will be reusable by designer and maintainer. Anything without the .js selector would be the non-scripting-enabled version of a part of the document, and anything with the .js selector is applied only when JavaScript is available.
 
-
-
+### 3. Don't mess up with the variable scope while using for loop
+```javascript
+  var x = 2;
+  for(var x = 5; x <= 10; x++) {
+   console.log("Value of x inside for loop: ", x);
+  }
+   console.log("Value of x outside for loop: ",x);
+   //Executing above code logs following output
+   Value of x inside for loop:  5
+   Value of x inside for loop:  6
+   Value of x inside for loop:  7
+   Value of x inside for loop:  8
+   Value of x inside for loop:  9
+   Value of x inside for loop:  10
+   Value of x outside for loop:  11
+```
+We would expect that the varaible x used in the for-loop is visible only inside the for-loop and value of x outside would still be 2 but that's wrong. Actually, while executing this code interpreter first define a value of a variable x as undefined and than it defines 2 and later 5 to 10. Therefore, value of the x outside the for-loop is 11.
 
 
 
