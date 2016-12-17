@@ -38,3 +38,4 @@ This piece of code will alert the name "Jitendra" as expected. Interesting thing
   console.log("Using closure add20", add20(5)); //logs 25
   console.log("Using closure add10", add10(3)); //logs 13
 ```
+Here _add20()_ and _add10()_ are closures as they share same function defination _addNumber()_ but different environements. In _add20()_'s environment the value of a is 20 and for _add10()_ the value of a is 10.
