@@ -2,7 +2,7 @@
 layout: post
 title: How to organise a dramatical play to understand OSI layers of computer network?
 subtitle: Understand basic concept of OSI layers by playing this game.
-bigimg: /img/osi-layers-burger.jpg
+bigimg: /img/osi-layer-burger.jpg
 ---
 
 Most of the teachers fail to explain about the OSI model related to computer networking. I came up with the idea that could help students realise about the basic purpose of OSI layers. Basically there are 7 layers in an OSI model. It can be explained by inviting 14 students to act as different layers of the OSI model and 1 student to act as a carrier medium of the message. We need following things to organise the play to demonstrate OSI model.
