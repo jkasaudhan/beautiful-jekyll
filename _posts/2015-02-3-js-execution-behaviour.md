@@ -14,6 +14,33 @@ Most of the developers might think that JS programs are interpreted line-by-line
   var x;
   console.log(x);
 ```
-What do you expect? Most of us might think it will print undefined because `var x` is defined after `x = 5` so x must be re-declared whose value is undefined. However, it prints 5.
+What do you expect? Most of us might think it will print undefined because `var x` is defined after `x = 5` so x must be re-declared whose value is undefined. However, it prints 5. Similarly, lets take another example
 
+```javascript
+  console.log(x);
+  var x = 5;
+```
+What do you expect now? Most of us might think it will print 5 based on the explaination before but that's not true. Its undefined in this case and the reason for this is related with hoisting.
 
+As I have mentioned before, JS enginee compiles our code before interpreting it. Therefore, during compilation phase, it finds and associates all the declations with their scopes i.e all the variable and function declarations are processed first before executing any piece of the code. JS enginee compiles and executes above code in the following way
+
+```javascript
+  var x;
+```
+This is done during compilation phase and during execution phase it executes as below
+
+```javascript 
+  x = 5;
+  console.log(x); //prints 5
+```
+For the second code snippet, it executes in following order.
+
+```javascript
+  var x;
+```
+which is compilation phase.
+
+```javascript
+  console.log(x);//since x is not assigned with some value before printing it, its value is undefined
+  x = 5;
+```
