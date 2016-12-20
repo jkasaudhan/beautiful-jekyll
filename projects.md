@@ -6,7 +6,7 @@ subtitle: This page contains my working experiences
 
 #### 1. Lieferoo UG 
 
-* As a CTO, we launched  Lieferoo http://lieferoo.me/en/ (Beta phase) which is a community of trusted travelers and sender
+* As a CTO, we launched  [Lieferoo](http://lieferoo.me/en/) (Beta phase) which is a community of trusted travelers and sender
 * Developed frontend part using AngularJS, configured  hosting environment(linux) in digitalocean, configured nginx proxy,
   designed database schema using mysql, defined REST Api structures.
 
