@@ -44,5 +44,4 @@ which is compilation phase.
   console.log(x);//since x is not assigned with some value before printing it, its value is undefined
   x = 5;
 ```
-For understanding details about how it works with functions, please visit [this page]
-(https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md)
+For understanding details about how it works with functions, please visit [this page](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md)
