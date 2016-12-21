@@ -3,7 +3,7 @@ layout: page
 title: Projects
 subtitle: This page contains my working experiences
 ---
-### * My Personal Website
+#### * My Personal Website
 I like sharing and discussing whatever I have learned or experienced. Therefore, after an intensive research I found simple and cool template [_beautiful-jekyll_](https://github.com/daattali/beautiful-jekyll)  and customized it to create my personal [website/blog](https://jkasaudhan.github.io/). 
 
 #### * Lieferoo UG 
@@ -36,7 +36,12 @@ I like sharing and discussing whatever I have learned or experienced. Therefore,
 
 #### * Technical University Of Munich (TUM), Germany (October 2013 - present)
 
-* Master’s thesis on Adaptive routing in publish/subscribe systems. Explored about PADRES, content-based pub/sub middleware framework( https://github.com/MSRG/padres ).
+* Master’s thesis on Adaptive routing in publish/subscribe systems. Explored about PADRES, content-based pub/sub middleware framework( https://github.com/MSRG/padres ). I had to modify PADRES framework build with JAVA to introduce topic-based routing and flooding. We have measured memory usage, CPU usage, size of subscription table and network traffic of the brokers network and analysed the performance of a Publish/Subscribe system when 3 different types of routing algorithms are used. We have used content-based routing which matches all the attributes along with a class/subject of the message, topic-based routing which matches class/subject of the message and flooding which does not match anything at all and floods all the received messages in the network. We have implemented self-managing hybrid routing model (using PADRES framework) which is based on the runtime statistics of the network traffic and broker utilization. We have extended content-based-flooding hybrid(CF Hybrid) routing model to use topic-based(CFT) routing and evaluated the results of both hybrid models. Similarly, we have proposed an implementation approach to extend PADRES framework to use topic-based routing. We have compared the simulation results of the related work with our results and investigated the impact of the new hybrid(content-based-flooding-topic-based (CFT)) model on the size of subscription table of the brokers network.
+
 * Developed a sandbox tool for testing plugins developed by Architecture informatics developers at TUM using C#, OpenTK and * WinForms as an Interdisciplinary(IDP) project.
 * Worked on backend of TeachZone (teaching mediating platform)  web app using JAVA playframework and best practices of web navigation patterns. 
 * Worked on  prototyping, UML Modeling, photoshop etc.
+
+#### * Others
+
+
