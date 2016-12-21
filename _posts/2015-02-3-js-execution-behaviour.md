@@ -44,4 +44,43 @@ which is compilation phase.
   console.log(x);//since x is not assigned with some value before printing it, its value is undefined
   x = 5;
 ```
+Consider the same case with JS functions.
+```javascript
+  test();
+  function test() {
+    console.log("testing...");
+  }
+```
+What do expect in this case? We might think since test() is called before it's body is declared, it might show an error but that's not true. It will print "testing...". As I mentioned earlier, variable and function declaration are hoisted i.e goes on top before interpreting it. Thefore JS enginee interprets it in the following way
+
+```javascript
+  function test() {
+    console.log("testing...");
+  }
+  test();
+```
+But if we assign a function to variable as shown below
+ 
+ ```javascript
+  test1();
+  
+  var test1 = function() {
+    console.log("testing...");
+  }
+```
+What do you expect in this case? In this case it will throw an exception TypeError: test1 is not a function.
+Since we have `var test1 = function() {...}` , JS engine will process this first as `var test1;` whose initial value is `undefined` and than it tries to invoke function on undefined because of which we get an error. JS enginee will interpret it as following
+
+ ```javascript
+  var test1;
+```
+
+ ```javascript
+  test1();
+  
+  var test1 = function() {
+    console.log("testing...");
+  }
+```
+
 For understanding details about how it works with functions, please visit [this page](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md)
