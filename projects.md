@@ -3,7 +3,7 @@ layout: page
 title: Projects
 subtitle: This page contains my working experiences
 ---
-#### - My Personal Website
+#### * My Personal Website
 I like sharing and discussing whatever I have learned or experienced. Therefore, after an intensive research I found simple and cool template [_beautiful-jekyll_](https://github.com/daattali/beautiful-jekyll)  and customized it to create my personal [website/blog](https://jkasaudhan.github.io/). 
 
 #### * Lieferoo UG 
