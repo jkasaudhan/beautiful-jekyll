@@ -71,16 +71,13 @@ But if we assign a function to variable as shown below
 What do you expect in this case? In this case it will throw an exception TypeError: test1 is not a function.
 Since we have `var test1 = function() {...}` , JS engine will process this first as `var test1;` whose initial value is `undefined` and than it tries to invoke function on undefined because of which we get an error. JS enginee will interpret it as following
 
- ```javascript
+```javascript
   var test1;
 ```
-
- ```javascript
-  test1();
-  
+```javascript
+  test1();  
   var test1 = function() {
     console.log("testing...");
   }
 ```
-
 For understanding details about how it works with functions, please visit [this page](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md)
