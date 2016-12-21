@@ -21,7 +21,7 @@ I like sharing and discussing whatever I have learned or experienced. Therefore,
 
 * Developed frontend using HTML, SASS, CSS, XR javascript framework for mobile, tablet and web application.
 * Designed database schema using mysql and developed backend for web app using XR framework (XR javascript framework on top   of Node js).
-* Implemented push notification service for android and iOS device using cordova.
+* Implemented push notification service for android and iOS device using cordova.[Read](https://github.com/jkasaudhan/PushNotificationUsingCordovaForAndroid)
 * Deployed apps for mobile and tablets using cordova (phonegap).
 * Worked with JSON, REST Api, Websockets etc.
 
