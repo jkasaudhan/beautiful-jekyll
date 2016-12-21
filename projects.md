@@ -44,4 +44,5 @@ I like sharing and discussing whatever I have learned or experienced. Therefore,
 
 #### * Others
 * Online Bodhi Shop: An ecommerce site built with zen cart. [Online Bodhi Shop](http://onlinebodhishop.com/).
+* Church Of Light: This project contains 3D model with texture and light rendering for _Church of light_ using cinema 4D and photoshop. [Here](https://github.com/jkasaudhan/Church-Of-Light-3D-Rendered-Model-2014-Cinema-4D)
 
