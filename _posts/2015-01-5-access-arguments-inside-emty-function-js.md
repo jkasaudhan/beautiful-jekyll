@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to access arguments inside an empty function in JS?
-subtitle: Importance of keywork _arguments_
+subtitle: Importance of keyword _arguments_
 bigimg: /img/path.jpg
 ---
 
