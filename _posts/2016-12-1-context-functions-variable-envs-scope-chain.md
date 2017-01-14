@@ -28,7 +28,7 @@ Let's say we have following block of code and lets try to guess what would be th
    console.log(meroVar);
 ```
 
-It will print undefined , 2 and 1. So, whats actually happening here? 
+It will print undefined , 2 and 1. So, whats actually happening here? When `func1()` is invoked, a new execution context for `func1()` is created with its own variable environment and pushed on top of global execution context. Similarly, when `func2()` is called inside func1(), new execution context is created and push on top position as shown in figure below. JS engine executes top most execution context and remove it and goes thoughly below the stack as described in the diagram below.
 
-![Execution Context Created By JS Engine](../img/ExecutionContext.png)
+![Execution Context Created By JS Engine](../img/ExecutionContext.png) 
 
