@@ -51,6 +51,6 @@ For each execution context there is scope chain associated with it. Scope chain 
    console.log(meroVar);
 ```
 Notice `func2()`, we have removed `var meroVar;` from the function. Now run this code, what do you expect?....
-It will print 1, 2, 1. First of all execution context of `func2()` tries to find the value of meroVar within its own context but if it can't resolve the value in its own execution context than it tries to go through the execution context associated with its scope chain. Here, `func1()` and `func2()` are created in the global context similar to a variable declaration `var meroVar = 1;`, therefore execution context of `func2()` and `func1()` has reference to an outer environment as shown in the figure below. 
+It will print 1, 2, 1. First of all execution context of `func2()` tries to find the value of meroVar within its own context but if it can't resolve the value in its own execution context than it tries to go through the execution context associated with its scope chain. Here, `func1()` and `func2()` are created in the global context similar to a variable declaration `var meroVar = 1;`, therefore execution context of `func2()` and `func1()` has reference to an outer environment as shown in the figure below. In other word, `func1()` and `func2()` has same lexical environment. Lexical environment means the place where something sits physically inside your code. 
 
 ![JS Scope Chain](../img/ScopeChain.png)
