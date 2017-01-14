@@ -32,3 +32,25 @@ It will print undefined , 2 and 1. So, whats actually happening here? When `func
 
 ![Execution Context Created By JS Engine](../img/ExecutionContext.png) 
 
+### What is scope chain?
+For each execution context there is scope chain associated with it. Scope chain is used for determining variable access and identifier resolution. Lets modify our previous example to understand about scope chain.
+
+```javascript
+    function func2() {
+      console.log(meroVar);
+    }
+  
+    function func1() {
+      var meroVar = 2;
+      func2();
+      console.log(meroVar);
+    }
+  
+   var meroVar = 1;
+   func1();
+   console.log(meroVar);
+```
+Notice `func2()`, we have removed `var meroVar;` from the function. Now run this code, what do you expect?....
+It will print 1, 2, 1. First of all execution context of `func2()` tries to find the value of meroVar within its own context but if it can't resolve the value in its own execution context than it tries to go through the execution context associated with its scope chain. Here, `func1()` and `func2()` are created in the global context similar to a variable declaration `var meroVar = 1;`, therefore execution context of `func2()` and `func1()` has reference to an outer environment as shown in the figure below. 
+
+![JS Scope Chain](../img/ScopeChain.png)
