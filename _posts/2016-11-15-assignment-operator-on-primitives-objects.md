@@ -17,4 +17,4 @@ Let me explain what does this mean through an example
 ```
 It looks simple and it is simple but I would like to explain what is happening under the hood. When assignment operator is used on primitives (b = a), new memory address location for ‘b’  is created and the  value of ‘a’  is copied to b’s address location. Therefore, a has separate memory location holding value 3 and b has separate memory location holding value 3 and hence changing a = 4 later on wont't change the value of b. Figure below shows how JS engine evaluates these assignments
 
-!(AssignmentByValye)[../img/AssignmentByValue.png]
+![AssignmentByValye](../img/AssignmentByValue.png)
