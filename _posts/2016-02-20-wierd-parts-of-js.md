@@ -5,9 +5,9 @@ subtitle: Collection of code snippets whose result looks unusual
 ---
 
 Just to understand how JS works, I have been trying to make a list of JS code snippets whose output looks unusal to me. 
-I am aware that, this is how JS works but it makes me feel wierd about JS. Please let me know if you have figured out something like this, through the comment section below. It might be useful to debug our own code :)
+I am aware that, this is how JS works but it makes me feel weird about JS. Please let me know if you have figured out something like this, through the comment section below. It might be useful to debug our own code :)
 
-### Type of not a number is a number
+### Data type of not a number is a number
 When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of number data type which is wierd in one way.
 
 ```javascript
@@ -45,7 +45,7 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
   funcList[2](); // prints 4
   funcList[3](); // prints 4
 ```
-Eventhough we might expect it to print 0, 1, 2, 3 at first glance, it actually prints 4, 4, 4, 4. This is how JS works and is related to closure. I have separate post explaining how environment vaiables are executed in the execution context stack in this particular case.
+Eventhough we might expect it to print 0, 1, 2, 3 at first glance, it actually prints 4, 4, 4, 4. This is how JS works and is related to closure. I have separate post explaining how environment variables are executed in the execution context stack in this particular case.
 
 ### Looks wierd how 'this' object works ?
 
@@ -86,9 +86,9 @@ var grandFather = {
 grandFather.setMessage();
 grandFather.father.setMessage();
 ```
-Just for a minute and think what would be the result :). I have separate post on how 'this' object works.
+Just wait for a minute and think what would be the result :). I have separate post on how 'this' object works.
 
-Prints following result
+Prints following result:-
 
 Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
 
