@@ -14,7 +14,7 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
   console.log(typeof(NaN)); //prints number
 ```
 
-### This is because of typeof(NaN) => number
+### Following behaviour is because of typeof(NaN) => number
 
 ```javascript
   console.log(angular.isNumber(parseInt('ee')));//prints true
