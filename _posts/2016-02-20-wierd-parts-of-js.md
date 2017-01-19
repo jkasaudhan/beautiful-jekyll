@@ -13,6 +13,7 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
 ```javascript
   console.log(typeof(NaN)); //prints number
 ```
+
 ### This is because of typeof(NaN) => number
 
 ```javascript
@@ -36,14 +37,11 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
     funcArray.push(function() {
       console.log(i);
     });
-
   }
-
   return funcArray;
   }
 
   var funcList = createFunctions();
-
   funcList[0](); // prints 4
   funcList[1](); // prints 4
   funcList[2](); // prints 4
