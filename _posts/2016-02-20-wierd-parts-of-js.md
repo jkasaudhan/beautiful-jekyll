@@ -63,7 +63,7 @@ var grandFather = {
   message: "I am your grand father.",
   //direct method inside an object grandFather 
   setMessage: function() {
-      console.log("Inside father's setMessage: ", this.message);
+      console.log("Inside grand father's setMessage: ", this.message);
       console.log("Inside setMessage of grandFather: ", this);
 
       var changeMessage = function() {
@@ -93,7 +93,7 @@ Just for a minute and think what would be the result :). I have separate post on
 Prints following result
 
 Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
-Inside father's setMessage:  I am your grand father.
+Inside grand father's setMessage:  I am your grand father.
 Inside setMessage of grandFather:  Object {message: "I am your grand father.", father: Object}
 Inside inner method of grandFather i.e inside setMessage:  Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
 Inside father's setMessage:  I am your father.
