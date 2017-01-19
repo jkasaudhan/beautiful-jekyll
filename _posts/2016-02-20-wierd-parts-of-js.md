@@ -4,7 +4,7 @@ title: Weird parts of JavaScript?
 subtitle: Collection of code snippets whose result looks unusual
 ---
 
-Just to understand how JS works, I have been trying to make a list of JS code snippets whose output looks unusal to me. 
+Just to understand how JS works, I have been trying to make a list of JS code snippets whose output looks unusual to me. 
 I am aware that, this is how JS works but it makes me feel weird about JS. Please let me know if you have figured out something like this, through the comment section below. It might be useful to debug our own code :)
 
 ### Data type of not a number is a number
