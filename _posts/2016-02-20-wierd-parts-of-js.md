@@ -67,8 +67,8 @@ var grandFather = {
       console.log("Inside setMessage of grandFather: ", this);
 
       var changeMessage = function() {
-         //feels unsual to print global Window object in this method. Here, this object point to global Window object not      //grandFather object
-          console.log("Inside inner method of grandFather i.e inside setMessage: ", this);
+         //feels unsual to print global Window object in this method. Here, this object points to global Window object not      //grandFather object
+          console.log("Inside inner method of grandFather i.e inside changeMessage: ", this);
       }
 
       changeMessage();
@@ -98,7 +98,7 @@ Inside grand father's setMessage:  I am your grand father.
 
 Inside setMessage of grandFather:  Object {message: "I am your grand father.", father: Object}
 
-Inside inner method of grandFather i.e inside setMessage:  Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
+Inside inner method of grandFather i.e inside changeMessage:  Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…} //feels unsual to print global Window object in this method. Here, this object points to global Window object but not grandFather object
 
 Inside father's setMessage:  I am your father.
 
