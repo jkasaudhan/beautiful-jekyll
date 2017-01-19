@@ -13,8 +13,14 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
 ```javascript
   console.log(typeof(NaN)); //prints number
 ```
+### This is because of typeof(NaN) => number
+
+```javascript
+  console.log(angular.isNumber(parseInt('ee')));//prints true
+```
 
 ### Type of null is an object
+
 ```javascript
   console.log(typeof(null)); //prints object
 ```
