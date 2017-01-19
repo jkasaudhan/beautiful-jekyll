@@ -11,5 +11,10 @@ I am aware that, this is how JS works but it makes me feel wierd about JS.
 When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of number data type which is wierd in one way.
 
 ```javascript
-  console.log(typeof(NaN))
+  console.log(typeof(NaN)); //prints number
+```
+
+### Type of null is an object
+```javascript
+  console.log(typeof(null)); //prints object
 ```
