@@ -60,14 +60,15 @@ What do expect in this case? We might think since test() is called before it's b
   test();
 ```
 But if we assign a function to variable as shown below
- 
- ```javascript
+
+```javascript
   test1();
   
   var test1 = function() {
     console.log("testing...");
   }
 ```
+
 What do you expect in this case? In this case it will throw an exception TypeError: test1 is not a function.
 Since we have `var test1 = function() {...}` , JS engine will process this first as `var test1;` whose initial value is `undefined` and than it tries to invoke function on undefined because of which we get an error. JS enginee will interpret it as following
 
