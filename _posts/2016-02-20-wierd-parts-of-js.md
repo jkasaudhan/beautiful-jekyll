@@ -48,3 +48,52 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
   funcList[3](); // prints 4
 ```
 Eventhough we might expect it to print 0, 1, 2, 3 at first glance, it actually prints 4, 4, 4, 4. This is how JS works and is related to closure. I have separate post explaining how environment vaiables are executed in the execution context stack in this particular case.
+
+### Looks wierd how 'this' object works ?
+
+```javascript
+function globalFunction() {
+console.log(this);
+}
+
+//call global function
+globalFunction(); //prints global Window object
+
+var grandFather = {
+  message: "I am your grand father.",
+  //direct method inside an object grandFather 
+  setMessage: function() {
+      console.log("Inside father's setMessage: ", this.message);
+      console.log("Inside setMessage of grandFather: ", this);
+
+      var changeMessage = function() {
+          console.log("Inside inner method of grandFather i.e inside setMessage: ", this);
+      }
+
+      changeMessage();
+  },
+
+  //creating new object father
+  father: {
+    message: "I am your father.",
+    setMessage: function() {
+        console.log("Inside father's setMessage: ", this.message);
+        console.log("Inside father's setMessage: ", this);
+    }
+
+  }
+}
+
+grandFather.setMessage();
+grandFather.father.setMessage();
+```
+Just for a minute and think what would be the result :). I have separate post on how 'this' object works.
+
+Prints following result
+
+Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
+Inside father's setMessage:  I am your grand father.
+Inside setMessage of grandFather:  Object {message: "I am your grand father.", father: Object}
+Inside inner method of grandFather i.e inside setMessage:  Window {external: Object, chrome: Object, document: document, Prototype: Object, Class: Object…}
+Inside father's setMessage:  I am your father.
+Inside father's setMessage:  Object {message: "I am your father."}
