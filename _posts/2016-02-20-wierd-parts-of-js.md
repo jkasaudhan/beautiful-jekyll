@@ -86,7 +86,7 @@ var grandFather = {
 grandFather.setMessage();
 grandFather.father.setMessage();
 ```
-Just wait for a minute and think what would be the result :). I have separate post on how 'this' object works.
+Just wait for a moment and try to think about the expected results :). Try to focus on the 'this' object inside `changeMessage()`, what do you expect? For me it feels weird because 'this' object inside `changeMessage()` method points to global Window object. I have separate post on how 'this' object works.
 
 Prints following result:-
 
