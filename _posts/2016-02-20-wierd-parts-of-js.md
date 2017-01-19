@@ -103,3 +103,17 @@ Inside inner method of grandFather i.e inside changeMessage:  Window {external: 
 Inside father's setMessage:  I am your father.
 
 Inside father's setMessage:  Object {message: "I am your father."}
+
+### Invoke function before it is declared ?
+Unlike other programming languages like C# or JAVA, it is not mandatory to declare or define functions before invoking it.
+
+```javascript
+  //function invokation before declaring it.
+  printName(); 
+  
+  function printName() { 
+    console.log("I am Jack Sparrow");
+  }
+```
+
+We might expect it to throw an error because we are calling `printName()` function before its body is defined. But, it is not the case in JS. This is because of [Hoisting](/2016-12-08-js-execution-behaviour)
