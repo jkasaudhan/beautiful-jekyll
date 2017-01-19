@@ -30,15 +30,13 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
 
 ```javascript
   function createFunctions() {
-  var funcArray = [];
-
-  for(var i=0; i< 4; i++) {
-
-    funcArray.push(function() {
-      console.log(i);
-    });
+    var funcArray = [];
+    for(var i=0; i< 4; i++) {
+      funcArray.push(function() {
+        console.log(i);
+      });
   }
-  return funcArray;
+    return funcArray;
   }
 
   var funcList = createFunctions();
