@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wierd parts of JavaScript?
+title: Weird parts of JavaScript?
 subtitle: Collection of code snippets whose result looks unusual
 ---
 
