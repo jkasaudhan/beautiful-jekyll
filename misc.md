@@ -14,8 +14,8 @@ Following links shows you an editor which simulates how JS code is executed unde
 
 ### 3. Documentries of world class leaders
 - Jeff Bezos (Founder and CEO of amazon.com):- 
-* [Amazon's Retail Revolution Business Boomers BBC Full documentary 2014](https://www.youtube.com/watch?v=6UhrIEUjtwI)
-* [Amazing Amazon Story - Jeff Bezos Full Speech](https://www.youtube.com/watch?v=YlgkfOr_GLY)
+  - [Amazon's Retail Revolution Business Boomers BBC Full documentary 2014](https://www.youtube.com/watch?v=6UhrIEUjtwI)
+  - [Amazing Amazon Story - Jeff Bezos Full Speech](https://www.youtube.com/watch?v=YlgkfOr_GLY)
 - Jack Ma (Founder and CEO of alibaba.com):- [Story of Alibaba & Jack Ma Full Documentary](https://www.youtube.com/watch?v=zwm7NWAxRzs)
 - Steve Jobs (Founder and CEO of apple.com):- [Steve Jobs - The Man in the Machine (Documentary)](https://www.youtube.com/watch?v=pcT0pSewa7M)
 - Bill Gates (Founder and CEO of microsoft.com):- [Life Story of Bill Gates - Documentary](https://www.youtube.com/watch?v=fO2u-uxVBIc)
