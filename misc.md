@@ -17,7 +17,9 @@ Following links shows you an editor which simulates how JS code is executed unde
   - [Amazon's Retail Revolution Business Boomers BBC Full documentary 2014](https://www.youtube.com/watch?v=6UhrIEUjtwI)
   - [Amazing Amazon Story - Jeff Bezos Full Speech](https://www.youtube.com/watch?v=YlgkfOr_GLY)
 - Jack Ma (Founder and CEO of alibaba.com):- [Story of Alibaba & Jack Ma Full Documentary](https://www.youtube.com/watch?v=zwm7NWAxRzs)
-- Steve Jobs (Founder and CEO of apple.com):- [Steve Jobs - The Man in the Machine (Documentary)](https://www.youtube.com/watch?v=pcT0pSewa7M)
+- Steve Jobs (Founder and CEO of apple.com):- 
+  - [Steve Jobs - The Man in the Machine (Documentary)](https://www.youtube.com/watch?v=pcT0pSewa7M)
+  - [American Genius Series 1 1of8 Jobs vs Gates ](https://www.youtube.com/watch?v=prstbP2cG6M)
 - Bill Gates (Founder and CEO of microsoft.com):- [Life Story of Bill Gates - Documentary](https://www.youtube.com/watch?v=fO2u-uxVBIc)
 - Elon Musk (Founder and CEO of paypal.com, Tesla Motors, SpaceX):- [Elon Musk: How I Became The Real 'Iron Man'](https://www.youtube.com/watch?v=mh45igK4Esw)
 - Gurbaksh Chahal (Founder and CEO of ClickAgents, RadiumOne, Gravity4 ):- [Ambition. Discipline. Purpose](https://www.youtube.com/watch?v=28sCH-uK-0Q)
