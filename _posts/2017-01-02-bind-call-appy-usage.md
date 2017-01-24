@@ -73,6 +73,23 @@ It is useful when we want to burrow functions from other object. Let's say we ha
   bindedPrintName();//prints William Smith
 ```
 
+Similarly, we can use `.bind()` method for function currying, which means copying a function with some preset parameters.
+
+```javascript
+  function multiply(x, y) {
+    return x * y;
+  }
+  
+  //do not foucs on `this` object in this case, it is points to normal global Window object.
+  //bind in this case accepts this object and first parameter value i.e x = 10
+  var multiplyByTen = multiply.bind(this, 10);
+  
+   //bind in this case accepts this object and first parameter value i.e x = 6
+  var multiplyBySix = multiply.bind(this, 6);
+  
+  console.log(multiplyByTen(2)); //prints 20
+  console.log(multiplyBySix(5)); //prints 30 
+```
 
 
 
