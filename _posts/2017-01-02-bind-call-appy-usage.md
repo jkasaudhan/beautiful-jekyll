@@ -48,5 +48,34 @@ Trying to invoke `printName()` propmts an error because `this` object points to 
   
   //.bind(user) does not invoke a function rather it returns a copy of printName method passing user object
   var bindedPrintName = printName.bind(user);
-  bindedPrintName();
+  bindedPrintName();//prints Hi, I am  Jack Reacher
 ```
+
+It is useful when we want to burrow functions from other object. Let's say we have a new object `user2` without `getFullName()` method. In this case we can burrow the function of `user` object to get the result. 
+
+```javascript
+  var user = {
+    firstname: "Jack",
+    lastname: "Reacher",
+    getFullName: function() {
+      //because 'this' object is used inside first level method of an object, it points to  user object
+      return this.firstname + " " + this.lastname;
+    }
+  }
+  
+  var user2 = {
+    firstname: "William",
+    lastname: "Smith"
+  }
+  
+  //.bind(user) does not invoke a function rather it returns a copy of getFullName method passing user2 object
+  var bindedPrintName = user.getFullName.bind(user2);
+  bindedPrintName();//prints William Smith
+```
+
+
+
+
+
+
+
