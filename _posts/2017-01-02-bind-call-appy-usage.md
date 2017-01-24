@@ -28,7 +28,7 @@ It is necessary to understand how .bind(), .call() and .apply() method works bef
   printName();//shows an error Uncaught TypeError: this.getFullName is not a function
 ```
 
-Trying to invoke `printName()` propmts an error because `this` object points to gobal Window object which does not have function `getFullName()`. In this situation, what if we can control `this` object to point to user object? JS allows us to control `this` object inside `printName()` method using `.bind()` method.
+Trying to invoke `printName()` prompts an error because `this` object points to gobal Window object which does not have function `getFullName()`. In this situation, what if we can control `this` object to point to user object? JS allows us to control `this` object inside `printName()` method using `.bind()` method.
 
 ```javascript
   var user = {
@@ -91,8 +91,35 @@ Similarly, we can use `.bind()` method for function currying, which means copyin
   console.log(multiplyBySix(5)); //prints 30 
 ```
 
+### .call() method
+.call() method actually invokes the function.
 
+```javascript
+    var user = {
+    firstname: "Jack",
+    lastname: "Reacher",
+    getFullName: function() {
+      //because 'this' object is used inside first level method of an object, it points to  user object
+      return this.firstname + " " + this.lastname;
+    }
+  }
+  
+  //function to print name of the user
+  var printName = function(address, age) {
+    //in this case 'this' object will point to global Window object
+    console.log("Hi, I am ", this.getFullName() + " from " + address + ". Age: " + age + " years old.");
+  }
+  
+  printName.call(user, "Pandora planet", 100);//prints Hi, I am  Jack Reacher from Pandora planet. Age: 100 years old.
+```
 
+### .apply() method
+`.apply()` invokes the method with the supplied parameters but it differs slightly from `.call()` method. `.apply()` method accepts arguments in the form of array as shown below
+
+```javascript
+   printName.apply(user, ["Pandora planet", 100]);//prints Hi, I am  Jack Reacher from Pandora planet. Age: 100 years old.
+```
+It is usefun in evaluating mathematical expressions.
 
 
 
