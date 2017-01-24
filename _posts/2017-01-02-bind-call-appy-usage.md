@@ -119,7 +119,7 @@ Similarly, we can use `.bind()` method for function currying, which means copyin
 ```javascript
    printName.apply(user, ["Pandora planet", 100]);//prints Hi, I am  Jack Reacher from Pandora planet. Age: 100 years old.
 ```
-It is usefun in evaluating mathematical expressions.
+It is useful while evaluating mathematical expressions.
 
 
 
