@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code execution beaviour in JS, every JS developer should know.
+title: Code execution behaviour in JS, every JS developer should know.
 subtitle: Do you know about Hoisting?
 bigimg: /img/matrix.jpg
 ---
@@ -51,7 +51,7 @@ Consider the same case with JS functions.
     console.log("testing...");
   }
 ```
-What do expect in this case? We might think, since test() is called before it's body is declared, it might show an error but that's not true. It will print "testing...". As I mentioned earlier, variable and function declaration are hoisted i.e goes on top before interpreting it. Thefore JS enginee interprets it in the following way
+What do you expect in this case? We might think, since test() is called before it's body is declared, it might show an error but that's not true. It will print "testing...". As I mentioned earlier, variable and function declaration are hoisted i.e goes on top before interpreting it. Thefore JS enginee interprets it in the following way
 
 ```javascript
   function test() {
@@ -59,6 +59,7 @@ What do expect in this case? We might think, since test() is called before it's 
   }
   test();
 ```
+
 But if we assign a function to variable as shown below
 
 ```javascript
