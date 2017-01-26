@@ -26,7 +26,11 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
   console.log(typeof(null)); //prints object
 ```
 
-### angular.isDefined(NaN) => prints true
+### angular.isDefined(NaN) => returns true
+
+### angular.isDefined(NaN) => returns true
+
+### angular.isDefined(null) => returns true
 
 ### Initially it feels wierd to see the output of the following code
 
