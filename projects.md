@@ -19,7 +19,7 @@ subtitle: This page contains my working experiences
 
 * Developed frontend using HTML, SASS, CSS, XR javascript framework for mobile, tablet and web application.
 * Designed database schema using mysql and developed backend for web app using XR framework (XR javascript framework on top   of Node js).
-* Implemented push notification service for android and iOS device using cordova.[Read](https://github.com/jkasaudhan/PushNotificationUsingCordovaForAndroid)
+* Implemented push notification service for android and iOS device using cordova.[Ref](https://github.com/jkasaudhan/PushNotificationUsingCordovaForAndroid)
 * Deployed apps for mobile and tablets using cordova (phonegap).
 * Worked with JSON, REST Api, Websockets etc.
 
@@ -42,6 +42,6 @@ subtitle: This page contains my working experiences
 
 #### * Others
 * Online Bodhi Shop: An ecommerce site built with zen cart. [Online Bodhi Shop](http://onlinebodhishop.com/).
-* Church Of Light: This project contains 3D model with texture and light rendering for _Church of light_ using cinema 4D and photoshop. [Here](https://github.com/jkasaudhan/Church-Of-Light-3D-Rendered-Model-2014-Cinema-4D)
+* Church Of Light: This project contains 3D model with texture and light rendering for _Church of light_ using cinema 4D and photoshop. [Ref](https://github.com/jkasaudhan/Church-Of-Light-3D-Rendered-Model-2014-Cinema-4D)
 * My Personal Website: I like sharing and discussing whatever I have learned or experienced. Therefore, after an intensive research I found a simple and cool template [_beautiful-jekyll_](https://github.com/daattali/beautiful-jekyll)  and customized it to create my personal [website/blog](https://jkasaudhan.github.io/). 
 
