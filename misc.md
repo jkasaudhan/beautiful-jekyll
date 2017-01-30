@@ -27,3 +27,7 @@ Following links shows you an editor which simulates how JS code is executed unde
   - [Elon Musk: How I Became The Real 'Iron Man'](https://www.youtube.com/watch?v=mh45igK4Esw)
 - Gurbaksh Chahal (Founder and CEO of ClickAgents, RadiumOne, Gravity4 ):-
   - [Ambition. Discipline. Purpose](https://www.youtube.com/watch?v=28sCH-uK-0Q)
+
+### 4. Learning resources
+- Free MIT courses about data structure and algorithms :-
+  - [Free MITCOURSEWARE](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
