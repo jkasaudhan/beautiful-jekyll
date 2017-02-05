@@ -33,4 +33,4 @@ Following links shows you an editor which simulates how JS code is executed unde
   - [Free MITCOURSEWARE](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
 
 ### 5. How browser works under the hood?
-- Describes all the components involved while rendering HTML, CSS  and JS codes on browser [How chrome browsers works ?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- Describes all the components involved while rendering HTML, CSS  and JS codes on browser. [How chrome browsers works ?](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
