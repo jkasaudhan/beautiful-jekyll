@@ -32,6 +32,8 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
 
 ### angular.isDefined(null) => returns true
 
+### console.log(NaN === NaN);  // logs "false"
+
 ### Initially it feels wierd to see the output of the following code
 
 ```javascript
