@@ -71,3 +71,21 @@ for (var i = 0; i < 5; i++) {
   document.body.appendChild(btn);
 }
 ```
+
+```javascript
+var arr1 = "john".split('');
+var arr2 = arr1.reverse();
+var arr3 = "jones".split('');
+arr2.push(arr3);
+console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
+console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
+```
+
+```javascript
+console.log(1 +  "2" + "2");
+console.log(1 +  +"2" + "2");//+"2" returns 2 because unary operator + attempts to convert operand to number, if it is not already
+console.log(1 +  -"1" + "2");
+console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+```
