@@ -89,3 +89,16 @@ console.log(+"1" +  "1" + "2");
 console.log( "A" - "B" + "2");
 console.log( "A" - "B" + 2);
 ```
+
+```javascript
+for (var i = 0; i < 5; i++) {
+  setTimeout(function() { console.log(i); }, i * 1000 );
+}
+```
+
+```javascript
+console.log("0 || 1 = "+(0 || 1));
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 && 2 = "+(1 && 2));
+```
