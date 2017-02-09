@@ -29,6 +29,6 @@ Let's say we have a parent and child dom elements as shown below
  </ul>
 ```
 
-We can add event listener on each child element but we might have situation where the number of child element is unknown or dynamically added. In this situation event delegation becomes handy. Because of property event bubbling i.e whenever event occurs in the innermost element, its event is propagated upwards towards parent. Similary, event capturing means whenever event occurs on parent element, it is propagated towards downward as described in the diagram below.
+We can add event listener on each child element but we might have situation where the number of child element is unknown or dynamically added. In this situation event delegation becomes handy. Because of property event bubbling i.e whenever event occurs in the innermost element, its event is propagated upwards towards parent. Similary, event capturing means whenever event occurs on parent element, it is propagated downward from parent to child element as described in the diagram below. Therefore, child element delegates its event handling task to parent element and parent is responsible for identifying specific child element and do something. Parent can identify specific child element by using `event.target` but not `event.currentTarget`. Please note that `event.currentTarget` returns the element where actual event listener is assigned but `event.target` retuns specific element in which event has occured.
 
 ![Event Delegation](../img/EventBubblingAndCapturing.jpg)
