@@ -4,8 +4,8 @@ title: What is event delegation in JS?
 subtitle: Do you know about event bubbling and capturing?
 ---
 
-Before understanding event delegation let see what wikipedia says about `Delegation` "Delegation is the assignment of any responsibility or authority to another person". 
-In the world of JS, event delegation means assigning responsibility of one element to another element. Event delegation allows us to avoid defining individual event listeners for child elements. Let me explain it through an example.
+Before understanding event delegation lets see what wikipedia says about `Delegation` "Delegation is the assignment of any responsibility or authority to another person". 
+In the world of JS, event delegation means assigning responsibility of one element to another element. Event delegation allows us to avoid adding event listeners on specific child elements. Let me explain it through an example.
 Let's say we have a parent and child dom elements as shown below
 
 ```javascript
