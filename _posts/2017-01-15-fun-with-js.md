@@ -140,3 +140,20 @@ One way to fix the stoleSecretIdentity() function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
 ```
 
+### Why does case 1 below gives error but not case 2?
+
+```javascript
+  case 1:
+   function foo() {
+   //this is function declaration or function statement
+   console.log('logging');
+   }();
+```
+
+```javascript
+  case 2:
+   var foo = function() {
+   //this is function expression
+   console.log('logging');
+   }();
+```
