@@ -31,4 +31,4 @@ Let's say we have a parent and child dom elements as shown below
 
 We can add event listener on each child element but we might have situation where the number of child element is unknown or dynamically added. In this situation event delegation becomes handy. Because of property event bubbling i.e whenever event occurs in the innermost element, its event is propagated upwards towards parent. Similary, event capturing means whenever event occurs on parent element, it is propagated towards downward as described in the diagram below.
 
-![Event Delegation](img/EventBubblingAndCapturing.jpg)
+![Event Delegation](../img/EventBubblingAndCapturing.jpg)
