@@ -44,6 +44,13 @@ console.table(age20Personses6);
 //Modifies the value of an array item but map does not change the size of an array.
 var presonGreetingses6 = persons.map(person =>  "Hello, " + person.name);
 console.log(presonGreetingses6);
+
+//If we have multiple parameters to a function and a block of code to execute we can use following syntax
+var getResults = (persons, increament) => {
+  console.log("Age increased by: ", increament);
+  return persons.map(per => per.age*increament);
+};
+console.log(getResults(persons, 2));
 ```
 
 #### Default Parameters
