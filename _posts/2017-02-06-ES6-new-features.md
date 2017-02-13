@@ -18,7 +18,6 @@ This post contains the list of new features introduced in ES6. Similarly, we wil
 
 ```javascript
 //ES5 Style
-
 var changeColor = function(color) {
   var marioColor = color || 'red';
   
@@ -26,7 +25,6 @@ var changeColor = function(color) {
     background-color: marioColor;
   });
 }
-
 //ES6 Style
 var changeColor = function(color = 'red') {
   var marioColor = color ;
