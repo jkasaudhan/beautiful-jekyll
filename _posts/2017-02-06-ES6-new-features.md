@@ -23,12 +23,27 @@ var persons = [
   {name: 'Luke', age: 25}
 ];
 
+//Filters array, can change the size of an array after filter is applied.
 var age20Persons = persons.filter(function(person) {
   return person.age === 20;
 });
 console.table(age20Persons);
-//ES6 Style
-var fullName = `${firstname} ${lastname}`;
+
+//Modifies the value of an array item but map does not change the size of an array.
+var presonGreetings = persons.map(function(person) {
+  return "Hello, " + person.name;
+});
+console.log(presonGreetings);
+
+//ES6 Style, using arrow notation
+//Filters array, can change the size of an array after filter is applied.
+//We can just pass parameters instead of using function(data){} and direclty return value without usind return statement.
+var age20Personses6 = persons.filter(person => person.age === 20);
+console.table(age20Personses6);
+
+//Modifies the value of an array item but map does not change the size of an array.
+var presonGreetingses6 = persons.map(person =>  "Hello, " + person.name);
+console.log(presonGreetingses6);
 ```
 
 #### Default Parameters
