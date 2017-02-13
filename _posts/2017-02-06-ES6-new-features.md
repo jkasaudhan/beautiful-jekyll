@@ -46,3 +46,19 @@ var fullName = firstname + ' ' + lastname;
 //ES6 Style
 var fullName = `${firstname} ${lastname}`;
 ```
+
+#### Destructuring Assignment
+
+```javascript
+//ES5 Style
+var data = jQuery('body').data();
+//If jQuery('body').data() returns properties userName and email, we have to destructure in following way
+var userName = data.userName;
+var email = data.email;
+
+//ES6 Style
+var {userName, email} = jQuery('body').data();
+
+//This is also valid for array
+var [w1, w2, w3] = "word1, word2, word3".split(',');
+```
