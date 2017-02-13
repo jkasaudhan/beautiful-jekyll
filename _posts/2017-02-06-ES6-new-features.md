@@ -33,8 +33,16 @@ var changeColor = function(color = 'red') {
     background-color: marioColor;
   });
 }
-
 //Calling function
 changeColor();
+```
 
+#### Template Literals
+
+```javascript
+//ES5 Style
+var fullName = firstname + ' ' + lastname;
+
+//ES6 Style
+var fullName = `${firstname} ${lastname}`;
 ```
