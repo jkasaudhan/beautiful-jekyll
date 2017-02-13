@@ -11,7 +11,7 @@ Following code snippet allows us to use method chaining similar to `jQuery('ul l
 
 ```javascript
 var jk = $G("Jitendra", "Kasaudhan");
-jk.greet().setLang('np').greet(true);
+jk.greet().setLang('np').greet(true);// prints: Hi! Jitendra and Namaste Jitendra Kasaudhan
 ```
 
 
