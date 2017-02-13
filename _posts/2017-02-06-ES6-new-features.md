@@ -73,6 +73,21 @@ import { sum, pi } from "lib/math"
 console.log("2π = " + sum(pi, pi))
 ```
 #### const and let 
+Variable defined with `const` are immutable i.e its value cannot not be changed, but variables defined with `let` are mutable.
+
+```javascript
+const MY_AGE = 20;
+console.log(MY_AGE); //prints 20
+
+MY_AGE = 30;
+console.log(MY_AGE);//prompts error: Uncaught TypeError: Assignment to constant variable
+
+let DB_NAME = "dbtest";
+console.log(DB_NAME);//prints dbtest
+
+DB_NAME = "otherdbtest";
+console.log(DB_NAME);//prints otherdbtest
+```
 
 #### Arrows functions
 ```javascript
