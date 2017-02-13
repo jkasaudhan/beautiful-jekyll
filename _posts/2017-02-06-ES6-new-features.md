@@ -8,6 +8,38 @@ This post contains important new features introduced in ES6. We will go through 
 
 #### Classes
 
+```javascript
+//ES5 Style
+var Shape = function(id, dx, dy) {
+    this.id = id;
+    this.move(dx, dy);
+}
+
+Shape.prototype.move = function(dx, dy) {
+    this.x = dx;
+    this.y = dy;
+}
+
+var shape = new Shape(1, 5, 10);
+console.log(shape);
+
+//ES6 Style
+class Shape {
+  constructor(id, dx, dy) {
+    this.id = id;
+    this.move(dx, dy);
+  }
+  
+  move(dx, dy) {
+    this.dx = dx;
+    this.dy = dy;
+  }
+}
+
+var shapeES6 = new Shape(2, 20, 30);
+console.log(shapeES6);
+```
+
 #### Modules
 
 #### const and let 
