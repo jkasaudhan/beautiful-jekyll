@@ -72,7 +72,9 @@ console.log("2π = " + math.sum(math.pi, math.pi))
 import { sum, pi } from "lib/math"
 console.log("2π = " + sum(pi, pi))
 ```
+
 #### const and let 
+
 Variable defined with `const` are immutable i.e its value cannot not be changed, but variables defined with `let` are mutable. To get a deep dive into when should we use const and let, please visit this article by [Dr. Axel Rauschmayer](http://www.2ality.com/2015/02/es6-scoping.html)which explains details about variables and scoping in ES6.
 
 ```javascript
