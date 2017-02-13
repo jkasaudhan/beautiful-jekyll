@@ -101,3 +101,6 @@ var {userName, email} = jQuery('body').data();
 //This is also valid for array
 var [w1, w2, w3] = "word1, word2, word3".split(',');
 ```
+[Reference 1](https://webapplog.com/es6/)
+[Reference 2](http://es6-features.org/#ClassDefinition)
+[Reference 3](https://github.com/lukehoban/es6features)
