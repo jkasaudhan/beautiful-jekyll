@@ -5,8 +5,7 @@ subtitle: How to write a simple JS library similar to jQuery?
 ---
 
 I have been thinking about how jQuery works under the hood and how can I write something like jQuery. It looks like there
-are standard patterns used by world class developers. I know there are several ways to write a library that encapsulates its variables
-and methods. Here, I have wrote a simple Greet library used for displaying greet messages based on the supplied language. Similarly, we can learn about how to use method chaining, expose methods outside the library, function prototypes etc.
+are standard patterns used by world class developers. I know there are several ways to write a library which encapsulates  variables and methods used inside the library. Here, I have wrote a simple Greet library used for displaying greet messages based on the supplied language. Similarly, we can learn about how to implement method chaining, expose methods outside the library, function prototypes etc.
 Following code snippet allows us to use method chaining similar to `jQuery('ul li').addClass('class1').removeClass('class2');`
 
 ```javascript
