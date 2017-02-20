@@ -29,12 +29,18 @@ Following links shows you an editor which simulates how JS code is executed unde
   - [Ambition. Discipline. Purpose](https://www.youtube.com/watch?v=28sCH-uK-0Q)
 
 ### 4. Useful resources for learning web development
+I use following resources to learn and upgrade myself every year :). It might be useful for anyone reading this blog post.
 - [Learn to be a self-taught expert programmer, By bento.io](https://bento.io/)
 - [Learn the latest frameworks from industry pros, By egghead.io](https://egghead.io/)
 - [You Don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
 - [Understanding JavaScript](https://www.udemy.com/understand-javascript/)
 - [JS, AngularJS, React, Mobile Apps, NodeJS and soon](https://scotch.io/)
 - [Understanding NodeJS](https://www.udemy.com/understand-nodejs/)
+- [Learn ethical hacking and know how to secure your web apps][https://www.udemy.com/learn-ethical-hacking-from-scratch/]
+- Talks:-
+   - [JavaScript Conferences](https://www.youtube.com/user/jsconfeu)
+   - [FrontTrends](https://www.youtube.com/channel/UCpIBwBITpXelDgDwe-16zWA) 
+   - [Dev Tips for CSS, SASS](https://www.youtube.com/user/DevTipsForDesigners)
 - Free MIT courses about data structure and algorithms :-
   - [Free MITCOURSEWARE](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
 
