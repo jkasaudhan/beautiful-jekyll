@@ -29,7 +29,7 @@ Following links shows you an editor which simulates how JS code is executed unde
   - [Ambition. Discipline. Purpose](https://www.youtube.com/watch?v=28sCH-uK-0Q)
 
 ### 4. Useful resources for learning web development
-I use following resources to learn and upgrade myself every year :). It might be useful for anyone reading this blog post.
+I use following resources to learn and upgrade myself every year :). It might be useful for anyone reading this post. I love sharing useful tips on twitter [@jitubutwal144](https://twitter.com/jitubutwal144) as well.
 - [Learn to be a self-taught expert programmer, By bento.io](https://bento.io/)
 - [Learn the latest frameworks from industry pros, By egghead.io](https://egghead.io/)
 - [You Don't know JavaScript](https://github.com/getify/You-Dont-Know-JS)
