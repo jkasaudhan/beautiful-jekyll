@@ -26,5 +26,4 @@ I was lucky that all these process only took  1 and half hours.
 I hope this post will be helpful to others with similar situation.
 
 For detailed information please visit this
-[link]
-( http://www.muenchen.de/rathaus/home_en/Department-of-Public-Order/Foreigners-Office/student-visa-residence/visa-for-academic-studies ) 
+[link]( http://www.muenchen.de/rathaus/home_en/Department-of-Public-Order/Foreigners-Office/student-visa-residence/visa-for-academic-studies ) 
