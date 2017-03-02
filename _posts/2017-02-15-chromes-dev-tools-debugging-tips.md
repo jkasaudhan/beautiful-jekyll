@@ -22,4 +22,11 @@ You can log your values in tablular format using `console.table()`
   var users = [{name: "Jackie Chain", age: 40},{name: "Jack Sparrow", age: 30},{name: "Tom Hanks", age: 40}];
   console.table(users);
 ```
+### 3) Log dom element and its directory
+We can log the dom tree structure for any dom element using `console.dir()`.
 
+```javascript
+   var domElement = document.querySelector('p');
+   console.log(domElement); //prints <p>..........</p>
+   console.dir(domElement); // prints p with all the attributes in it.
+```
