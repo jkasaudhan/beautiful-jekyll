@@ -35,5 +35,26 @@ We can log the dom tree structure for any dom element using `console.dir()`.
 You can group console logs under proper topic name using `console.group(...)` and `console.groupEnd()`
 
 ```javascript
+//log user related logs in a group
+console.group('users logs'); 
+   console.log('Name: ', 'jk');
+   console.log('Age: ', '30'); 
+   console.log('Email: ', 'jk@jk.com');
+console.groupEnd('users logs');
+
+//log product related logs in a group
+console.group('products logs'); 
+   console.log('Name: ', 'Mobile');
+   console.log('Cost: ', '400EUR'); 
+   console.log('Model: ', 'Nexus');
+console.groupEnd('products logs');
+
+//logs product related logs in a group but in collapse format
+console.groupCollapsed('products logs'); 
+   console.log('Name: ', 'Mobile');
+   console.log('Cost: ', '400EUR'); 
+   console.log('Model: ', 'Nexus');
+console.groupEnd('products logs');
+
 
 ```
