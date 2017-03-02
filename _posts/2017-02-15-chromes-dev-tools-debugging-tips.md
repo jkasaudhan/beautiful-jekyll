@@ -4,7 +4,7 @@ title: Debugging tips using chrome's developer's tool.
 subtitle: Power of 'console' object?
 ---
 
-If you have worked with JavaScript, probably you might be familiar with `console` object used for debugging. Most of the developers are familiar with `console.log()`, `console,error()`, `console.info()` and `console.warn()`. There are other interesting stuff we can do with `console` object which are listed below.
+If you have worked with JavaScript, probably you must be familiar with `console` object used for debugging. Most of the us are familiar with `console.log()`, `console,error()`, `console.info()` and `console.warn()` but there are other interesting stuff we can do with `console` object which are listed below.
 
 ### 1) Embed styles
 You can embed css styles while logging any text using %c as shown below. Try to copy and paste the console.log statement below in your developers tool and see the result. Isn't it cool?
