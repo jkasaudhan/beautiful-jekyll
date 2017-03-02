@@ -4,9 +4,7 @@ title: Debugging tips using chrome's developer's tool.
 subtitle: Power of 'console' object?
 ---
 
-If you have worked with JavaScript, probably you might be familiar with `console` object used for debugging. Most of the developers
-are familiar with `console.log()`, `console,error()`, `console.info()` and `console.warn()`. There are other interesting stuff we can
-do with `console` object which are listed below.
+If you have worked with JavaScript, probably you might be familiar with `console` object used for debugging. Most of the developers are familiar with `console.log()`, `console,error()`, `console.info()` and `console.warn()`. There are other interesting stuff we can do with `console` object which are listed below.
 
 ### 1) Embed styles
 You can embed css styles while logging any text using %c as shown below. Try to copy and paste the console.log statement below in your developers tool and see the result. Isn't it cool?
@@ -23,7 +21,7 @@ You can log your values in tablular format using `console.table()`
   console.table(users);
 ```
 ### 3) Log dom element and its directory
-We can log the dom tree structure for any dom element using `console.dir()`.
+You can log the dom tree structure for any dom element using `console.dir()`.
 
 ```javascript
    var domElement = document.querySelector('p');
@@ -58,9 +56,21 @@ console.groupEnd('products logs');
 ```
 
 ### 5) Log only if certain condition is false
-We can use `console.assert()` to check if certain value is true or false and log only if the condition is false.
+You can use `console.assert()` to check if certain value is true or false and log only if the condition is false.
 
 ```javascript
   //if condition is true it wont logs the statement 
   console.assert(1 === 2, "Logs only if condition is false");
 ```
+
+### 6) Count log terms
+You can count the terms used for loggin using `console.count()`
+
+```javascript
+   console.count('Hello'); //prints Hello: 1
+   console.count('Hello'); //prints Hello: 2
+   console.count('Hello'); //prints Hello: 3
+   console.count('Hello'); //prints Hello: 4
+```
+
+You can find more about deugging techniques [here](https://developers.google.com/web/tools/chrome-devtools/console/)
