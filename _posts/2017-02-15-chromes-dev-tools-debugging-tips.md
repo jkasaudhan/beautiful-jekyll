@@ -55,6 +55,12 @@ console.groupCollapsed('products logs');
    console.log('Cost: ', '400EUR'); 
    console.log('Model: ', 'Nexus');
 console.groupEnd('products logs');
+```
 
+### 5) Log only if certain condition is false
+We can use `console.assert()` to check if certain value is true or false and log only if the condition is false.
 
+```javascript
+  //if condition is true it wont logs the statement 
+  console.assert(1 === 2, "Logs only if condition is false");
 ```
