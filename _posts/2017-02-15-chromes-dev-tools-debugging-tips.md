@@ -30,3 +30,10 @@ We can log the dom tree structure for any dom element using `console.dir()`.
    console.log(domElement); //prints <p>..........</p>
    console.dir(domElement); // prints p with all the attributes in it.
 ```
+
+### 4) Group logs under proper topic name
+You can group console logs under proper topic name using `console.group(...)` and `console.groupEnd()`
+
+```javascript
+
+```
