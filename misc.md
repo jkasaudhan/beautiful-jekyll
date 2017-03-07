@@ -42,6 +42,7 @@ I use following resources to learn and upgrade myself every year :). It might be
    - [JavaScript Conferences](https://www.youtube.com/user/jsconfeu)
    - [FrontTrends](https://www.youtube.com/channel/UCpIBwBITpXelDgDwe-16zWA) 
    - [Dev Tips for CSS, SASS](https://www.youtube.com/user/DevTipsForDesigners)
+   - [#artTheWeb,CSSconf EU 2015 | Una Kravets: Photoshop is Dead!: Editing Images in CSS](https://www.youtube.com/watch?v=LY65F2e4B5w&list=PL37ZVnwpeshHoV6GgvG9WWAP6rjnEdAs9&index=3)
 - Free MIT courses about data structure and algorithms :-
   - [Free MITCOURSEWARE](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/)
 
