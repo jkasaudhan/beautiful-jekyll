@@ -36,7 +36,6 @@ I use following resources to learn and upgrade myself every year :). It might be
 - [Understanding Wierd Parts Of JavaScript - By Tony Alicea (udemy.com)](https://www.udemy.com/understand-javascript/)
 - [Understanding NodeJS - By Tony Alicea (udemy.com)](https://www.udemy.com/understand-nodejs)
 - [JS, AngularJS, React, Mobile Apps, NodeJS and soon](https://scotch.io/)
-- [Understanding NodeJS](https://www.udemy.com/understand-nodejs/)
 - [Learn ethical hacking and know how to hack/secure your web apps](https://www.udemy.com/learn-ethical-hacking-from-scratch/)
 - [Build 30 things in 30 Days](https://javascript30.com/)
 - Talks:-
