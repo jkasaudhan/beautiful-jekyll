@@ -140,7 +140,7 @@ Similarly, in case of `3 > 2 > 1`, `3 > 2` is evaluated first as true and on sec
 ### [ ] == ![ ] => returns true
 Try to log `console.log([] == ![])` How can an empty array be equal to its negation? Well, to understand this we should understand [operator precendence](http://www.scriptingmaster.com/javascript/operator-precedence.asp) and coercion in JS. In this case, negation operator(!) has higher precedence than comparasion (==) operator, which means `![]` is evaluated first which results `false`.Similarly, JS enginee coerces an empty array to value 0 in this case (try to log, [] == 0 => returns true) which means `0` == `false`, false is coerced as a 0 value therefore `0 == 0` becomes true.
 
-### Inconsistence addition of object
+### Inconsistent addition of object
 
 ```javascript
   // type following in console of developer's tool
