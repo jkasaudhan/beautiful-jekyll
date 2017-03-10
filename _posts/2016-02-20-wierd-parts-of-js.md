@@ -123,3 +123,10 @@ Unlike other programming languages like C# or JAVA, it is not mandatory to decla
 ```
 
 We might expect it to throw an error because we are calling `printName()` function before its body is defined. But, it is not the case in JS. This is because of [Hoisting](/2016-12-08-js-execution-behaviour)
+
+### Logically 1 < 2 < 3 and 3 > 2 > 1 should return true but it is not the case.
+
+```javasctipt
+  console.log(1 < 2 < 3);//returns true
+  console.log(3 > 2 > 1); // returns false
+```
