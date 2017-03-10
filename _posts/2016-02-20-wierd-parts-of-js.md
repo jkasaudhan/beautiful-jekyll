@@ -34,6 +34,8 @@ When we try to get the type of NaN i.e not a number, it says typeof(NaN) is of n
 
 ### console.log(NaN === NaN);  // logs "false"
 
+### console.log(isNaN('jiten')) => prints true (Instead use Number.isNaN('jiten') => returns false to check if it is number)
+
 ### Initially it feels wierd to see the output of the following code
 
 ```javascript
