@@ -154,3 +154,7 @@ Try to log `console.log([] == ![])` How can an empty array be equal to its negat
   console.log({} + []); //prints [object object]
   
 ```
+
+### JSON.stringify(-0) and String(-0) returns string zero without minus "0"
+
+
