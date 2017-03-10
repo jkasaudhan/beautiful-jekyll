@@ -162,3 +162,9 @@ Try to log `console.log([] == ![])` How can an empty array be equal to its negat
 ### Number([]) returns 0 but Number({}) returns "[object object]"
 
 ### String([]) returns "" but String({}) returns "[object object]"
+
+### String(null) returns "null" which looks fine but String([null]) returns empty string ""
+
+### String(undefined) returns "undefined" which looks fine but String([undefined]) returns empty string ""
+
+
