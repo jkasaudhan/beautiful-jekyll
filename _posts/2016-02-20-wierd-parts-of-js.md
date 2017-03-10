@@ -133,6 +133,7 @@ We might expect it to throw an error because we are calling `printName()` functi
   console.log(3 > 2 > 1); // returns false
 ```
 
-To understand this behaviour we should understand the [associativity of the operators in JS](http://www.scriptingmaster.com/javascript/operator-precedence.asp). <, <= and > ,>= has associativity from left to right which means JS enginee evaluates expressions from left to right. In case of  1 < 2 < 3, 1 < 2 is evaluated first which is true. And on second step, true < 3 is evaluated. Because of coercion, value of true becomes 1 and 1 < 3 is evaluated which means true and finally the overal result becomes true.
+To understand this behaviour we should understand the [associativity of the operators in JS](http://www.scriptingmaster.com/javascript/operator-precedence.asp). <, <= and > ,>= has associativity from left to right which means JS enginee evaluates expressions from left to right. In case of  `1 < 2 < 3`, `1 < 2` is evaluated first which is true. And on second step,`true < 3 `is evaluated. Because of coercion, value of true becomes 1 and `1 < 3` is evaluated, which means true and finally the overall result becomes true.
 
+Similarly, in case of `3 > 2 > 1`, `3 > 2` is evaluated first as true and on second step `true > 1` is evaluated. Because of automatic coercion value of boolean true becomes 1 and `1 > 1` is evaluated, which is false.
 
