@@ -158,3 +158,7 @@ Try to log `console.log([] == ![])` How can an empty array be equal to its negat
 ### JSON.stringify(-0) and String(-0) returns string zero without minus "0"
 
 ### Number(undefined) returns NaN but Number(null) returns 0
+
+### Number([]) returns 0 but Number({}) returns "[object object]"
+
+### String([]) returns "" but String({}) returns "[object object]"
