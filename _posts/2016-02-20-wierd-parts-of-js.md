@@ -167,4 +167,5 @@ Try to log `console.log([] == ![])` How can an empty array be equal to its negat
 
 ### String(undefined) returns "undefined" which looks fine but String([undefined]) returns empty string ""
 
+### String([null,null,]), String([undefined,undefined,]), String([,,]) returns ","
 
