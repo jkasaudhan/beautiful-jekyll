@@ -80,7 +80,7 @@ Similarly, we can use `.bind()` method for function currying, which means copyin
     return x * y;
   }
   
-  //do not foucs on `this` object in this case, it is points to normal global Window object.
+  //do not foucs on `this` object in this case, it points to normal global Window object.
   //bind in this case accepts this object and first parameter value i.e x = 10
   var multiplyByTen = multiply.bind(this, 10);
   
