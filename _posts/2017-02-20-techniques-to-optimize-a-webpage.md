@@ -24,3 +24,6 @@ for a portion of a page which is currently visible on the current viewport. This
 
 ### Browser caching
 Whenever any webpage is loaded on the browser, we can cache CSS or images or JavaScript files so that we don't have to load it again and again when user is visiting next webpage. Do not forget to specify appropriate expiry date for the cacheable resources.
+
+### Use proxy server
+You can use proxy server to get the resources from intermediate server rather than the real server.
