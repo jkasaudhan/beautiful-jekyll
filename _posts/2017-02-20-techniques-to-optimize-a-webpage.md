@@ -5,7 +5,7 @@ subtitle: Collection of techniques to optimize loading time of a webpage.
 ---
 
 In this post I would like to mention about the techniques which can be applied to reduce the loading time of a webpage. There are 
-several optimization techniques that can be used to boost up the performance any webapplication. If you know about other optimization techniques
+several optimization techniques that can be used to boost up the performance any webapplication. I have covered a brief introduction for each techniques rather than a detailed description. If you know about other optimization techniques
 other than the techniques listed below, please let me know through the comment section on the bottom of the page. I would love to know more about the 
 optimization techniques.
 
