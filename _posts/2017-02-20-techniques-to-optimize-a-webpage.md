@@ -20,4 +20,7 @@ Most of the time we use libraries like bootstrap to implement certain features b
 
 ### Loading styles only for current viewport
 Specially, in mobile devices we don't have to load all the styles required for a particular webpage rather we can load styles
-for a portion of a page which is currently visible on the current viewport. 
+for a portion of a page which is currently visible on the current viewport. This approach gives the feeling of smooth loading time without delay eventhough, it loads other styles slowly on the background.
+
+### Browser caching
+Whenever any webpage is loaded on the browser, we can cache CSS or images or JavaScript files so that we don't have to load it again and again when user is visiting next webpage. Do not forget to specify appropriate expiry date for the cacheable resources.
