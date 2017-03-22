@@ -27,3 +27,6 @@ Whenever any webpage is loaded on the browser, we can cache CSS or images or Jav
 
 ### Use proxy server
 You can use proxy server to get the resources from intermediate server rather than the real server. Using nearby proxy server helps to reduce the response time and a webpage can load faster than it would load when it retrives resources from a real server.
+
+### Server side rendering
+There are several programming languages and tools that allows us to process html, evaluate expressions on server side. We can process html templates on server side and return the processed html content to the frontend so that browser just renders the dom elements along with its styles.
