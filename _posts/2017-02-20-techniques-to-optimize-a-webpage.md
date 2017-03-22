@@ -15,5 +15,9 @@ We can generate minified version of html, CSS and javascript files we have used 
 ### Lazy loading
 Do not load unnecessary files which is not used in a particular web page. Based on the requirement of a web page, we should load only the required CSS or JavaScript files used by a webpage.
 
-### Remove unused CSS codebase
+### Remove unused CSS styles
 Most of the time we use libraries like bootstrap to implement certain features but we do not use all the features provided by bootstrap. This can result in enormous amount of unused styles loaded unnecessarily on a webpage. Therefore, we can use tools like `uncss` to remove unused styles. [Uncss](https://github.com/giakki/uncss)
+
+### Loading styles only for current viewport
+Specially, in mobile devices we don't have to load all the styles required for a particular webpage rather we can load styles
+for a portion of a page which is currently visible on the current viewport. 
