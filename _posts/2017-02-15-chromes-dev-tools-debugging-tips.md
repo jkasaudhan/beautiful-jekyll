@@ -73,5 +73,5 @@ You can count the terms used for loggin using `console.count()`
    console.count('Hello'); //prints Hello: 4
 ```
 
-You can find more about deugging techniques [1](https://developers.google.com/web/tools/chrome-devtools/console/)
+You can find more about deugging techniques here [1](https://developers.google.com/web/tools/chrome-devtools/console/)
 [2](http://blog.teamtreehouse.com/mastering-developer-tools-console)
