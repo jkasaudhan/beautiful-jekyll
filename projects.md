@@ -46,5 +46,5 @@ subtitle: This page contains my working experiences
 * My Personal Website: I like sharing and discussing whatever I have learned or experienced. Therefore, after an intensive research I found a simple and cool template [_beautiful-jekyll_](https://github.com/daattali/beautiful-jekyll)  and customized it to create my personal [website/blog](https://jkasaudhan.github.io/). 
 * Simple Data Structures:- It contains simple list of data structures like LinkedList, Binary Search Tree and HashTable written using JavaScript. [SimpleDataStructureJS](https://github.com/jkasaudhan/SimpleDataStructureJS)
 * Custom Slack Bot Using NodeJS:- This slack bot replies with jokes when the text 'jkbot' is mentioned in the message. [JKBot](https://github.com/jkasaudhan/custom_slack_bot_nodejs_app)
-
+* MEAN Auth Starter Kit App:- Starter seed app build using MongoDB, NodeJS, Express and AngularJS 2 that allows users to login, register and navigate to dashboard with url authentication using JSON web token. It can be used as a starter project for any kind of web application that requires user authentication and dashboard view after login.[MEAN Auth App Repo](https://github.com/jkasaudhan/mean_auth_app_starter_kit)
 
