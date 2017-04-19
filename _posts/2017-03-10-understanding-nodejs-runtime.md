@@ -59,10 +59,11 @@ I have tried to answer the questions by Samer Buna regarding NodeJS runtime ment
 - The require function always caches the module it requires. What can you do if you need to execute the code in a required module many times?
 - When working with streams, when do you use the pipe function and when do you use events? Can those two methods be combined?
 
-Answers:-
+Answers of the above questions has been divied into several posts as follow:-
 
 [Part1](https://medium.com/@jitubutwal144/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-answers-part1-b394c7581439)
 
 [Part2](https://medium.com/@jitubutwal144/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-answers-part2-f118b0ec81c0)
 
+[Part3](https://medium.com/@jitubutwal144/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-answers-part3-45f9fd8219a7)
 Other parts:- in progress...
