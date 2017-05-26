@@ -34,4 +34,7 @@ There are several programming languages and tools that allows us to process html
 ### Image Optimization
 I have seen several high qulity images with resolution of 5000 * 5000 which is atleast 5 to 10 mb in size. We can use several tools to optimize the size of an image without degrading the quality of an image for different devices.
 
+### Using preload and http2 push methods
+We can download crucially important css or js files in a first request sent by browser to a server using preload method Eg. `<link rel='preload' href='css/main.css' as='style'>`. Watch these JSConf videos to understand how preload and push mechanism can help us optimize the performance of a webpage. [Browser hackers guide to load instantly everything](https://www.youtube.com/watch?v=7vUs5yOuv-o), [CSSconf EU 2017 | Patrick Hamann: CSS and the first meaningful paint](https://www.youtube.com/watch?v=4pQ2byAoIX0)
+
 
