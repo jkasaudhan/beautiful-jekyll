@@ -30,3 +30,8 @@ You can use proxy server to get the resources from intermediate server rather th
 
 ### Server side rendering
 There are several programming languages and tools that allows us to process html, evaluate expressions on server side. We can process html templates on server side and return the processed html content to the frontend so that browser just renders the dom elements along with its styles.
+
+### Image Optimization
+I have seen several high qulity images with resolution of 5000 * 5000 which is atleast 5 to 10 mb in size. We can use several tools to optimize the size of an image without degrading the quality of an image for different devices.
+
+
